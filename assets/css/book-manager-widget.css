@@ -1,0 +1,40 @@
+#book-manager-widget {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.book-manager-book {
+    margin-bottom: 20px;
+}
+
+.book-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.book-author, .book-pages {
+    font-size: 0.9em;
+    color: #555;
+}
+
+#book-manager-pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+#book-manager-pagination button {
+    background-color: #3579F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#book-manager-pagination button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
